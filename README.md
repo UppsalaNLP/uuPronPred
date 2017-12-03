@@ -64,11 +64,12 @@ Overall we had the best results on the shared task with equal sampling.
 
 
 **Offline sampling**
- --offlineSampling True : activates the offline sampling option.
+
+ * --offlineSampling True : activates the offline sampling option.
 
  The offline sampling requires you to precompute your samples and feed the location as an additional parameter:
 
- --samples-path /directorywithyoursamples/
+ * --samples-path /directorywithyoursamples/
 
  Samples can be created using the offlinesampling.py script. 
 
